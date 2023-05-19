@@ -1,0 +1,71 @@
+.imgLogo {
+    height: 12%;
+    width: 12%;
+  }
+  .bg-gray {
+    background-color: rgb(23, 28, 34);
+  }
+  
+  body {
+    overflow-x: hidden;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+      
+  }
+
+  .bgdark {
+    background-color: #000000;
+  }
+
+  /* @media (max-width: 1115px) and (max-height: 657px) {
+    .sidebar {
+      display: none;
+    }
+  
+    .main-container {
+      margin-left: 0;
+    }
+  } */
+
+
+  .card {
+    border: none;
+  }
+  
+  .card-img-top {
+    object-fit: cover;
+    height: 200px;
+  }
+  
+  .card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .card-text {
+    font-size: 0.9rem;
+  }
+
+  @media (max-width: 768px) {
+    /* Styles for screens up to 768px wide */
+    .app-container {
+      padding: 10px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    /* Styles for screens up to 576px wide */
+    .app-container {
+      padding: 5px;
+    }
+  }
+
+
+  @media (max-width: 576px) {
+    header .buttons {
+      justify-content: flex-start;
+    }
+  }
+  
+  
