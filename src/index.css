@@ -68,4 +68,14 @@
     }
   }
   
+  @media (min-width: 411px) {
+    .header-logo {
+      display: none;
+    }
+  }
+
+  .header-logo {
+    width: 80%;
+    max-width: 150px;
+  }
   
