@@ -13,7 +13,6 @@ const Header = () => {
           </div>
         </nav>
       </div>
-      <div className="line"></div>
     </header>
   );
 }
