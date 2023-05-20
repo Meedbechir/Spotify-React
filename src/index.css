@@ -68,11 +68,21 @@
     }
   }
   
-  @media (min-width: 411px) {
-    .header-logo {
-      display: none;
-    }
+/* Styles pour les écrans de largeur inférieure à 575px */
+/* Styles pour les écrans de largeur inférieure à 575px */
+@media (max-width: 574px) {
+  .header-logo {
+    display: block;
   }
+}
+
+/* Styles pour les écrans de largeur supérieure ou égale à 575px */
+@media (min-width: 575px) {
+  .header-logo {
+    display: none;
+  }
+}
+
 
   .header-logo {
     width: 80%;
